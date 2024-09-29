@@ -9,3 +9,9 @@ git push -u origin main
 git checkout -b dev
 git branch
 git push -u origin dev
+# edit index.html title
+git add .
+git commit -m "landing page title changed"
+git push
+# change branch dev to main
+git checkout main
